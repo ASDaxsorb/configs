@@ -1,0 +1,26 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql",
+    "html",
+    "css"
+  ],
+  "snippets.priority": 1,
+  "snippets.extends": {
+    "javascript": ["javascript", "javascriptreact"]
+  },
+  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/textmate"],
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "diagnostic.checkCurrentLine": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.disableSuccessMessage": false,
+  "prettier.printWidth": 100,
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
+}
