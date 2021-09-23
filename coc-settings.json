@@ -15,7 +15,7 @@
   "snippets.extends": {
     "javascript": ["javascript", "javascriptreact"]
   },
-  "snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/textmate"],
+  "snippets.textmateSnippetsRoots": ["~/configs/plugins/snippets/textmate"],
   "prettier.singleQuote": true,
   "prettier.semi": false,
   "diagnostic.checkCurrentLine": true,

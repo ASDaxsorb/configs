@@ -13,11 +13,14 @@ set guicursor+=a:blinkon500
 set termguicolors
 set noshowmode
 set updatetime=100
-so ~/configs/nvim/plugins.vim
-lua require'colorizer'.setup()
-so ~/configs/nvim/plugin-config.vim 
-" ColorScheme
+
+"------------------- Sources ------------------------------------
+so ~/configs/plugins/plugins.vim
+so ~/configs/plugins/plugin-config.vim 
+"------------------- Sources ------------------------------------
+
+"------------------- Theme config -------------------------------
 let g:gruvbox_italic=1
 let g:lightline.colorscheme = 'gruvbox'
 colorscheme gruvbox
-
+"------------------- Theme config -------------------------------
