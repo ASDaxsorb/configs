@@ -1,20 +1,53 @@
+"------------------- Startify ---------------------------------
+let g:startify_custom_header=[
+  \ '      ___                                    ___     ',
+  \ '     /__/\          ___        ___          /__/\    ',
+  \ '     \  \:\        /__/\      /  /\        |  |::\   ',
+  \ '      \  \:\       \  \:\    /  /:/        |  |:|:\  ',
+  \ '  _____\__\:\       \  \:\  /__/::\      __|__|:|\:\ ',
+  \ ' /__/::::::::\  ___  \__\:\ \__\/\:\__  /__/::::| \:\',
+  \ ' \  \:\~~\~~\/ /__/\ |  |:|    \  \:\/\ \  \:\~~\__\/',
+  \ '  \  \:\  ~~~  \  \:\|  |:|     \__\::/  \  \:\      ',
+  \ '   \  \:\       \  \:\__|:|     /__/:/    \  \:\     ',
+  \ '    \  \:\       \__\::::/      \__\/      \  \:\    ',
+  \ '     \__\/           ~~~~                   \__\/    ',
+  \ ]
+
+let g:startify_bookmarks = [
+  	\ {'v': '~/configs/init.vim'},
+	\ {'w': '~/workspace'}
+    \ ]
+
+let g:startify_lists = [
+      \ {'header':['   Bookarks'], 'type': 'bookmarks'},
+      \ {'header':['   MRU'], 'type': 'files'},
+      \ {'header':['   MRU'. getcwd()], 'type': 'dir'},
+    \ ]
+
+"------------------- Startify ---------------------------------
+
+"------------------- MAPS --------------------------------------
+" Leader
+let mapleader=" "
+
+" NERDTree
+nmap <Leader>nt :NERDTreeFind<CR>
+
+" Easymotion 
+nmap <Leader>s <Plug>(easymotion-s2)
+
+" Write changes with leader and w
+nmap <Leader>w :w<CR>
+
+" Quit buffer with leader and q
+nmap <Leader>q :q<CR>
+"------------------- MAPS --------------------------------------
+
 "------------------- Conquer of Completion source -------------
 source ~/configs/plugins/coc-configs.vim
 "------------------- Conquer of Completion source -------------
 
-"------------------- Startify ---------------------------------
-let g:startify_custom_header = [
-      \'                               .__',        
-      \'  ____    ____    ____  ___  __|__|  _____   ', 
-      \' /    \ _/ __ \  /  _ \ \  \/ /|  | /     \  ', 
-      \'|   |  \\  ___/ (  <_> ) \   / |  ||  Y Y  \  ', 
-      \'|___|  / \___  > \____/   \_/  |__||__|_|  /   ',
-      \'     \/      \/                          \/    ', 
-  \ ]
-"------------------- Startify ---------------------------------
-
 "------------------- NERDTree ---------------------------------
-nmap <Leader>nt :NERDTreeFind<CR>
 let NERDTreeQuitOnOpen=1
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
@@ -26,6 +59,8 @@ let g:NERDTreeExactMatchHighlightColor = {}
 let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange
 let g:NERDTreeExtensionHighlightColor = {}
 let g:NERDTreeExtensionHighlightColor['js'] = s:yellow
+" let g:NERDTreeDirArrowExpandable = '+'
+" let g:NERDTreeDirArrowCollapsible = '~'
 let g:NERDTreeHighlightFolders = 0 " enables folder icon highlighting using exact match
 let g:NERDTreeHighlightFoldersFullName = 0 " highlights the folder name
 " let g:NERDTreeDisableFileExtensionHighlight = 1
@@ -64,20 +99,6 @@ let g:lightline = {
       \ }
 "------------------- LightLine ---------------------------------
 
-
-"------------------- MAPS --------------------------------------
-" Leader
-let mapleader=" "
-
-" Easymotion 
-nmap <Leader>s <Plug>(easymotion-s2)
-
-" Write changes with leader and w
-nmap <Leader>w :w<CR>
-
-" Quit buffer with leader and q
-nmap <Leader>q :q<CR>
-"------------------- MAPS --------------------------------------
 
 "------------------- AutoCloseTags </> -------------------------------
 " filenames like *.xml, *.html, *.xhtml, ...

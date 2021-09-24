@@ -20,7 +20,9 @@ so ~/configs/plugins/plugin-config.vim
 "------------------- Sources ------------------------------------
 
 "------------------- Theme config -------------------------------
-let g:gruvbox_italic=1
-let g:lightline.colorscheme = 'gruvbox'
-colorscheme gruvbox
+let g:gruvbox_material_background='hard'
+let g:gruvbox_material_enable_italic = 1
+let g:gruvbox_material_enable_bold = 1
+colorscheme gruvbox-material
+let g:lightline.colorscheme = 'gruvbox_material'
 "------------------- Theme config -------------------------------

@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 " Themes
 Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 
 " IDE
 Plug 'easymotion/vim-easymotion'
