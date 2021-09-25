@@ -44,7 +44,7 @@ nmap <Leader>q :q<CR>
 "------------------- MAPS --------------------------------------
 
 "------------------- Conquer of Completion source -------------
-source ~/configs/plugins/coc-configs.vim
+source ~/configs/nvim-configs/coc-configs.vim
 "------------------- Conquer of Completion source -------------
 
 "------------------- NERDTree ---------------------------------
@@ -139,4 +139,9 @@ let g:closetag_shortcut = '>'
 
 "------------------- Ident Lines for JSON -------------------------------
 let g:vim_json_syntax_conceal=0
+"------------------- Ident Lines for JSON -------------------------------
+
+
+"------------------- Ident Lines for JSON -------------------------------
+let g:javascript_plugin_jsdoc = 1
 "------------------- Ident Lines for JSON -------------------------------
