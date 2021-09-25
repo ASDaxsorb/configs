@@ -15,12 +15,11 @@
   "snippets.extends": {
     "javascript": ["javascript", "javascriptreact"]
   },
-  "snippets.textmateSnippetsRoots": ["~/configs/plugins/snippets/textmate"],
+  "snippets.textmateSnippetsRoots": ["~/configs/nvim-configs/snippets/textmate"],
   "prettier.singleQuote": true,
   "prettier.semi": false,
   "diagnostic.checkCurrentLine": true,
   "eslint.autoFixOnSave": true,
   "prettier.disableSuccessMessage": false,
-  "prettier.printWidth": 100,
-  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
+  "prettier.printWidth": 100
 }
