@@ -32,38 +32,37 @@ let g:startify_lists = [
 
 "------------------- NERDTree ---------------------------------
 let NERDTreeQuitOnOpen=1
-let g:NERDTreeFileExtensionHighlightFullName = 1
-let g:NERDTreeExactMatchHighlightFullName = 1
-let g:NERDTreePatternMatchHighlightFullName = 1
+" let g:NERDTreeFileExtensionHighlightFullName = 1
+" let g:NERDTreeExactMatchHighlightFullName = 1
+" let g:NERDTreePatternMatchHighlightFullName = 1
 let s:git_orange = 'F54D27'
 let s:green='8FAA54'
 let s:yellow='f7d307'
+let s:cyan='0afae6'
 let g:NERDTreeExactMatchHighlightColor = {} 
 let g:NERDTreeExactMatchHighlightColor['.gitignore'] = s:git_orange
 let g:NERDTreeExtensionHighlightColor = {}
 let g:NERDTreeExtensionHighlightColor['js'] = s:yellow
-" let g:NERDTreeDirArrowExpandable = '+'
-" let g:NERDTreeDirArrowCollapsible = '~'
-let g:NERDTreeHighlightFolders = 0 " enables folder icon highlighting using exact match
-let g:NERDTreeHighlightFoldersFullName = 0 " highlights the folder name
+let g:NERDTreeExtensionHighlightColor['css'] = s:cyan
+" let g:NERDTreeHighlightFolders = 0 " enables folder icon highlighting using exact match
+" let g:NERDTreeHighlightFoldersFullName = 0 " highlights the folder name
 " let g:NERDTreeDisableFileExtensionHighlight = 1
 " let g:NERDTreeDisableExactMatchHighlight = 1
 " let g:NERDTreeDisablePatternMatchHighlight = 1
 "------------------- NERDTree ---------------------------------
 
 "------------------- Devicons  -------------------------------
-" Devicons Uncomment to enable icons
-" let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = 'ƛ'
-" let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-" let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {} " needed
-" let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['js'] = ''
-" let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['css'] = ''
-" let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = ''
-" let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {} " needed
-" let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = ''
-" let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
-" let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['webpack.config.js'] = ''
-" let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['webpack.prod.js'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol = 'ƛ'
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {} " needed
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['js'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['css'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['html'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {} " needed
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['webpack.config.js'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['webpack.prod.js'] = ''
 "------------------- Devicons  -------------------------------
 
 " Clear syntax highlighting to prevent lag

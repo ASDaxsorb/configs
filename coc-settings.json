@@ -20,6 +20,5 @@
   "prettier.semi": false,
   "diagnostic.checkCurrentLine": true,
   "eslint.autoFixOnSave": true,
-  "prettier.disableSuccessMessage": false,
-  "prettier.printWidth": 100
+  "prettier.disableSuccessMessage": false
 }
