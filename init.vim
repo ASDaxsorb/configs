@@ -17,12 +17,9 @@ set updatetime=100
 "------------------- Sources ------------------------------------
 so ~/configs/nvim-configs/plugins.vim
 so ~/configs/nvim-configs/plugin-config.vim 
-
 "------------------- Sources ------------------------------------
 
 "------------------- Theme config -------------------------------
-let g:gruvbox_material_background='hard'
-let g:gruvbox_material_enable_italic = 1
-colorscheme gruvbox-material
-let g:lightline.colorscheme = 'gruvbox_material'
+colorscheme gruvbox
+let g:lightline.colorscheme = 'gruvbox'
 "------------------- Theme config -------------------------------
