@@ -20,6 +20,8 @@ so ~/configs/nvim-configs/plugin-config.vim
 "------------------- Sources ------------------------------------
 
 "------------------- Theme config -------------------------------
-colorscheme gruvbox
-let g:lightline.colorscheme = 'gruvbox'
+let g:gruvbox_material_better_performance = 1
+let g:gruvbox_material_enable_italic = 1
+colorscheme gruvbox-material
+let g:lightline.colorscheme = 'gruvbox_material'
 "------------------- Theme config -------------------------------

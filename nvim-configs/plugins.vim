@@ -2,7 +2,8 @@
 call plug#begin('~/.vim/plugged')
 
 " Themes
-Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
+Plug 'sheerun/vim-polyglot'
 
 " IDE
 Plug 'easymotion/vim-easymotion'
@@ -43,7 +44,6 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Syntax
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 
