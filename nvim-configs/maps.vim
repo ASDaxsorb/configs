@@ -13,5 +13,10 @@ nmap <Leader>w :w<CR>
 
 " Quit buffer with leader and q
 nmap <Leader>q :q<CR>
+
+" Files
+map <Leader>p :Files<CR>
+map <Leader>ag :Ag<CR>
+
 "------------------- MAPS --------------------------------------
 
