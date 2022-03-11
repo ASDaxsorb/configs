@@ -1,5 +1,7 @@
 {
+  "python.formatting.provider": "autopep8",
   "suggest.noselect": false,
+  "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
@@ -9,7 +11,8 @@
     "typescript.tsx",
     "graphql",
     "html",
-    "css"
+    "css",
+    "python"
   ],
   "diagnostic.errorSign": "",
   "diagnostic.warningSign": "",
@@ -50,10 +53,7 @@
   "snippets.textmateSnippetsRoots": [
     "~/configs/nvim-configs/snippets/textmate"
   ],
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
   "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
   "diagnostic.checkCurrentLine": true,
-  "eslint.autoFixOnSave": true,
-  "prettier.disableSuccessMessage": false
+  "eslint.autoFixOnSave": true
 }

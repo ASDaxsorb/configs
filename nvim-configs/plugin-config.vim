@@ -92,3 +92,14 @@ let g:vim_json_syntax_conceal=0
 "------------------- Ident Lines for JSON -------------------------------
 let g:javascript_plugin_jsdoc = 1
 "------------------- Ident Lines for JSON -------------------------------
+
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = {"javascript", "html", "lua"}, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    additional_vim_regex_highlighting = false,
+  },
+}
+EOF

@@ -1,11 +1,13 @@
 " Plug
 call plug#begin('~/.vim/plugged')
 
+
 " Themes
-Plug 'sainnhe/gruvbox-material'
-Plug 'sheerun/vim-polyglot'
+Plug 'morhetz/gruvbox'
+Plug 'projekt0n/github-nvim-theme'
 
 " IDE
+Plug 'ryanoasis/vim-devicons' "Icons"
 Plug 'easymotion/vim-easymotion'
 Plug 'itchyny/lightline.vim'
 Plug 'KabbAmine/vCoolor.vim'
@@ -14,7 +16,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-startify'
 
 " Styled components for react
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+" Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 " Ident lines
 Plug 'yggdroot/indentline'
@@ -46,5 +48,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Syntax
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/playground'
 
 call plug#end()
